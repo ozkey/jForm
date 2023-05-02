@@ -1,0 +1,10 @@
+{
+  "name": "my-project",
+  "source": "src/index.tsx",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "npx parcel ./index.html --dist-dir temp --open",
+    "build:parcel": "npx parcel build ./src/index.tsx ",
+    "build": "tsc "
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "init",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "nx": "16.0.1",
+    "parcel": "^2.8.3",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
+  },
+  "workspaces": [
+    "packages/*",
+    "components/*"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
