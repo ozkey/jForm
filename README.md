@@ -1,4 +1,4 @@
 # jForm
 
-lets get started
+lets get started with this repo!
 
