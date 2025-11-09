@@ -1,6 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import DiagramPages from "./Diagrams/DiagramPages";
 
 const Welcome: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Welcome: React.FC = () => {
           Welcome
         </Typography>
         <Typography variant="body1">This is the jForm welcome page.</Typography>
+        <DiagramPages></DiagramPages>
       </Box>
     </>
   );
